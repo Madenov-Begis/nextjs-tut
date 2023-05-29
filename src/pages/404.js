@@ -4,7 +4,6 @@ import { useEffect } from 'react'
 
 const NotFound = () => {
     const router = useRouter()
-    console.log(router);
 
     useEffect(() => {
         setTimeout(() => {
